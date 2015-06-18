@@ -55,9 +55,10 @@
 <section class="slide"><div>
 	<h2>Как получить сертификат</h2>
 	<ul>
+		<li class="next">Выбираем центр сертификации<br>(Certification Authority или CA)</li>
 		<li class="next">Генерируем приватный ключ</li>
 		<li class="next">Генерируем запрос на выдачу сертификата<br>(Certificate Signing Request или CSR)</li>
-		<li class="next">Отправляем запрос в выбранный центр сертификации<br>(Certification Authority или CA)</li>
+		<li class="next">Отправляем запрос в центр сертификации</li>
 	</ul>
 </div></section>
 
@@ -70,15 +71,15 @@
 		<li class="next">Включены правильные наборы шифров</li>
 		<li class="next">DH params &ge; 2048 бит</li>
 		<li class="next">Включен Online Certificate Status Protocol (OCSP stapling)</li>
-		<li class="next">Заголовок <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security">Strict-Transport-Security</a></li>
+		<li class="next">Заголовок <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security">Strict-Transport-Security</a> (HSTS)</li>
 	</ul>
 </div></section>
 
 <section class="slide"><div>
 	<h2>Генератор конфигурации</h2>
 	<p><a target="_blank" href="https://mozilla.github.io/server-side-tls/ssl-config-generator/">mozilla.github.io/server-side-tls/ssl-config-generator</a></p>
-	<p>Сервера: Apache, Nginx, HAProxy, AWS ELB.</p>
-	<p>Набор протоколов и шифров в зависимости от выбранной категории браузеров.</p>
+	<p>Серверы: Apache, Nginx, HAProxy, AWS ELB.</p>
+	<p>Набор протоколов и шифров в зависимости от выбранной категории браузеров (новые, популярные, старые).</p>
 </div></section>
 
 <section class="slide"><div>
@@ -135,7 +136,7 @@
 </div></section>
 
 <section class="slide illustration"><div>
-	<h2>HTTP/1.1 vs HTTP/2</h2>
+	<p><a target="_blank" href="https://http2.akamai.com/demo">http2.akamai.com/demo</a></p>
 	<img src="assets/images/dev-tools.png" class="place b" style="height: 450px;">
 </div></section>
 
@@ -150,7 +151,7 @@
 
 <section class="slide"><div>
 	<h2>SPDY и HTTP/2</h2>
-	<p>Доступны в последних версиях браузеров</p>
+	<p>Доступны в последних версиях браузеров.</p>
 	<p>
 		Поддержка сервере:<br/>
 		SPDY &mdash; Apache, Nginx и многие другие<br/>
@@ -164,7 +165,7 @@
 
 <section class="slide"><div>
 	<h2>Service Workers</h2>
-	<p>Перехват и&nbsp;обработка сетевых запросов, включая управление кешированием ресурсов.</p>
+	<p>Перехват и&nbsp;обработка сетевых запросов,<br>включая управление кешированием ресурсов.</p>
 </div></section>
 
 <section class="slide shout"><div>
