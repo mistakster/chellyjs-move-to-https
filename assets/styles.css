@@ -1,0 +1,9 @@
+.slide.intro {
+    background: white;
+    text-align: center;
+}
+.slide.intro h3 {
+    color: #52A2DF;
+    font: 100px/1 'Open Sans Light',sans-serif;
+    margin-bottom: 48px;
+}
