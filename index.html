@@ -54,23 +54,23 @@
 <section class="slide"><div>
 	<h2>Как получить сертификат</h2>
 	<ul>
-		<li class="next">Выбираем центр сертификации<br>(Certification Authority или CA)</li>
-		<li class="next">Генерируем приватный ключ</li>
-		<li class="next">Генерируем запрос на выдачу сертификата<br>(Certificate Signing Request или CSR)</li>
-		<li class="next">Отправляем запрос в центр сертификации</li>
+		<li class="next">выбираем центр сертификации<br>(Certification Authority или CA);</li>
+		<li class="next">генерируем приватный ключ;</li>
+		<li class="next">генерируем запрос на выдачу сертификата<br>(Certificate Signing Request или CSR);</li>
+		<li class="next">отправляем запрос в центр сертификации.</li>
 	</ul>
 </div></section>
 
 <section class="slide"><div>
 	<h2>Чек-лист</h2>
 	<ul>
-		<li class="next">Длинна ключа &ge; 2048 бит</li>
-		<li class="next">Алгоритм подписи сертификата SHA256</li>
-		<li class="next">Есть все промежуточные сертификаты</li>
-		<li class="next">Включены правильные наборы шифров</li>
-		<li class="next">DH params &ge; 2048 бит</li>
-		<li class="next">Включен Online Certificate Status Protocol (OCSP stapling)</li>
-		<li class="next">Заголовок <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security">Strict-Transport-Security</a> (HSTS)</li>
+		<li class="next">длинна ключа &ge; 2048 бит;</li>
+		<li class="next">алгоритм подписи сертификата SHA256;</li>
+		<li class="next">есть все промежуточные сертификаты;</li>
+		<li class="next">включены правильные наборы шифров;</li>
+		<li class="next">DH params &ge; 2048 бит;</li>
+		<li class="next">включен Online Certificate Status Protocol (OCSP stapling);</li>
+		<li class="next">заголовок <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security">Strict-Transport-Security</a> (HSTS).</li>
 	</ul>
 </div></section>
 
@@ -102,16 +102,16 @@
 <section class="slide"><div>
 	<h2>С точки зрения бизнеса</h2>
 	<ul>
-		<li>Одни сплошные расходы!</li>
+		<li>одни сплошные расходы!</li>
 	</ul>
 </div></section>
 
 <section class="slide"><div>
 	<h2>С точки зрения бизнеса</h2>
 	<ul>
-		<li><span style="text-decoration: line-through">Одни сплошные расходы!</span></li>
-		<li>Лояльность пользователей</li>
-		<li>Google показывает HTTPS-сайт выше в поисковой выдаче</li>
+		<li><span style="text-decoration: line-through">одни сплошные расходы!</span></li>
+		<li>лояльность пользователей;</li>
+		<li>Google показывает HTTPS-сайт выше в поисковой выдаче.</li>
 	</ul>
 </div></section>
 
@@ -119,8 +119,8 @@
 	<h2>С точки зрения разработчика</h2>
 	<p>Появляется возможность поиграться с клёвыми штучками:</p>
 	<ul>
-		<li>Протоколы SPDY и HTTP/2</li>
-		<li>Service Workers</li>
+		<li>протоколы SPDY и HTTP/2;</li>
+		<li>Service Workers.</li>
 	</ul>
 </div></section>
 
@@ -142,9 +142,9 @@
 <section class="slide"><div>
 	<h2>SPDY и HTTP/2</h2>
 	<ul>
-		<li class="next">Экономия на создании подключения</li>
-		<li class="next">Приоритезация загрузки ресурсов</li>
-		<li class="next">Загружаем то, что действительно нужно</li>
+		<li class="next">экономия на создании подключения и выполнении запроса;</li>
+		<li class="next">приоритезация загрузки ресурсов;</li>
+		<li class="next">загружаем то, что действительно нужно.</li>
 	</ul>
 </div></section>
 
@@ -154,7 +154,7 @@
 	<p>
 		Поддержка сервере:<br/>
 		SPDY &mdash; Apache, Nginx и многие другие<br/>
-		HTTP/2 &mdash; OpenLiteSpeed<br/>
+		HTTP/2 &mdash; OpenLiteSpeed (остальные на подходе)<br/>
 	</p>
 </div></section>
 
@@ -165,6 +165,10 @@
 <section class="slide"><div>
 	<h2>Service Workers</h2>
 	<p>Перехват и&nbsp;обработка сетевых запросов,<br>включая управление кешированием ресурсов.</p>
+	<p class="next">
+		Статья: <a target="_blank" href="http://www.html5rocks.com/en/tutorials/service-worker/introduction/">Introduction to Service Worker</a><br/>
+		Видео: <a target="_blank" href="http://www.youtube.com/watch?v=d5_6yHixpsQ">Supercharging page load</a>
+	</p>
 </div></section>
 
 <section class="slide shout"><div>
