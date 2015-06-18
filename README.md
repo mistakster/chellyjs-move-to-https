@@ -1,1 +1,2 @@
-# chellyjs-move-to-https
+# ChellyJS #1 &mdash; Переходи на HTTPS!
+
