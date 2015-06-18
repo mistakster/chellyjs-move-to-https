@@ -1,2 +1,2 @@
-# ChellyJS #1 &mdash; Переходи на HTTPS!
+# ChellyJS #1 &mdash; РџРµСЂРµС…РѕРґРё РЅР° HTTPS!
 
