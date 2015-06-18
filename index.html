@@ -30,28 +30,57 @@
 </section>
 
 
-<section class="slide"><div>
+<section class="slide illustration"><div>
 	<img src="assets/images/meteoskynet-url.png" class="place t" />
 </div></section>
 
-<section class="slide"><div>
+<section class="slide illustration"><div>
 	<img src="assets/images/meteoskynet-cert.png" class="place t" />
 </div></section>
 
-<section class="slide"><div>
+<section class="slide illustration"><div>
 	<img src="assets/images/mediumcom-url.png" class="place t" />
 </div></section>
 
-<section class="slide"><div>
+<section class="slide illustration"><div>
 	<img src="assets/images/mediumcom-cert.png" class="place t" />
 </div></section>
 
-<section class="slide"><div>
+<section class="slide illustration"><div>
 	<img src="assets/images/cert-wrong.png" class="place t" />
 </div></section>
 
-<section class="slide"><div>
+<section class="slide illustration"><div>
 	<img src="assets/images/cert-expired.png" class="place t" />
+</div></section>
+
+<section class="slide"><div>
+	<h2>Как получить сертификат</h2>
+	<ul>
+		<li class="next">Генерируем приватный ключ</li>
+		<li class="next">Генерируем запрос на выдачу сертификата<br>(Certificate Signing Request или CSR)</li>
+		<li class="next">Отправляем запрос в выбранный центр сертификации<br>(Certification Authority или CA)</li>
+	</ul>
+</div></section>
+
+<section class="slide"><div>
+	<h2>Чек-лист</h2>
+	<ul>
+		<li class="next">Длинна ключа &ge; 2048 бит</li>
+		<li class="next">Алгоритм подписи сертификата SHA256</li>
+		<li class="next">Есть все промежуточные сертификаты</li>
+		<li class="next">Включены правильные наборы шифров</li>
+		<li class="next">DH params &ge; 2048 бит</li>
+		<li class="next">Включен Online Certificate Status Protocol (OCSP stapling)</li>
+		<li class="next">Заголовок <a href="https://developer.mozilla.org/en-US/docs/Web/Security/HTTP_strict_transport_security">Strict-Transport-Security</a></li>
+	</ul>
+</div></section>
+
+<section class="slide"><div>
+	<h2>Генератор конфигурации</h2>
+	<p><a href="https://mozilla.github.io/server-side-tls/ssl-config-generator/">mozilla.github.io/server-side-tls/ssl-config-generator</a></p>
+	<p>Сервера: Apache, Nginx, HAProxy, AWS ELB.</p>
+	<p>Набор протоколов и шифров в зависимости от выбранной категории браузеров.</p>
 </div></section>
 
 <section class="slide" id="thank-you"><div>
