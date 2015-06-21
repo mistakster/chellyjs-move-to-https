@@ -119,11 +119,12 @@
 
 <section class="slide"><div>
 	<h2>С точки зрения разработчика</h2>
-	<p>Появляется возможность поиграться с клёвыми штучками:</p>
 	<ul>
 		<li>протоколы SPDY и HTTP/2;</li>
 		<li>Service Workers.</li>
 	</ul>
+	<p class="next">Разработчики браузеров планируют давать доступ к&nbsp;новым технологиям только при наличии защищенного соединения&nbsp;&mdash;
+		&laquo;<a target="_blank" href="https://blog.mozilla.org/security/2015/04/30/deprecating-non-secure-http/">Deprecating Non-Secure HTTP</a>&raquo;</p>
 </div></section>
 
 <section class="slide shout"><div>
@@ -138,7 +139,7 @@
 
 <section class="slide illustration"><div>
 	<p><a target="_blank" href="https://http2.akamai.com/demo">http2.akamai.com/demo</a></p>
-	<img src="assets/images/dev-tools.png" class="place b" style="height: 450px;">
+	<img src="assets/images/dev-tools.png" class="place t" style="width: 100%; top: 160px;">
 </div></section>
 
 <section class="slide"><div>
@@ -155,8 +156,8 @@
 	<p>Доступны в последних версиях браузеров.</p>
 	<p>
 		Поддержка сервере:<br/>
-		SPDY &mdash; Apache, Nginx и многие другие<br/>
-		HTTP/2 &mdash; OpenLiteSpeed (остальные на подходе)<br/>
+		SPDY &mdash; Apache, Nginx и многие другие;<br/>
+		HTTP/2 &mdash; OpenLiteSpeed (остальные на подходе).
 	</p>
 </div></section>
 
@@ -166,8 +167,16 @@
 
 <section class="slide"><div>
 	<h2>Service Workers</h2>
-	<p>Перехват и&nbsp;обработка сетевых запросов,<br>включая управление кешированием ресурсов.</p>
-	<p class="next">
+	<ul>
+		<li>перехват и&nbsp;обработка сетевых запросов,<br>включая управление кешированием ресурсов;</li>
+		<li>работа в режиме offline;</li>
+		<li>Push-уведомления.</li>
+	</ul>
+</div></section>
+
+<section class="slide"><div>
+	<h2>Service Workers</h2>
+	<p>
 		Статья: <a target="_blank" href="http://www.html5rocks.com/en/tutorials/service-worker/introduction/">Introduction to Service Worker</a><br/>
 		Видео: <a target="_blank" href="http://www.youtube.com/watch?v=d5_6yHixpsQ">Supercharging page load</a>
 	</p>
